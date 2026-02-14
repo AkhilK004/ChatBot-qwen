@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\"\n    Summarize the research paper '{paper_input}' in a {style_input} style with a maximum length of {length_input} words.",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
